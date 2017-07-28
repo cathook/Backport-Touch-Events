@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Mapping Touch Events To Mouse Events",
+  "description": "It's trivial!!",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://docs.google.com/*"],
+      "js": [
+        "inject/main.js"
+      ]
+    }
+  ]
+}
